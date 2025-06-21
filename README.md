@@ -40,4 +40,4 @@ streamlit run analysis/dashboard.py
 -Streamlit
 
 data set unsed :
-kaggle avacado dataset
+kaggle avocado dataset
