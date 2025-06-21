@@ -38,3 +38,6 @@ streamlit run analysis/dashboard.py
 -Matplotlib
 
 -Streamlit
+
+data set unsed :
+kaggle avacado dataset
