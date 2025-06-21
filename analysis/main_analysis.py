@@ -2,7 +2,7 @@ import pandas as pd
 from plots import plot_avg_price_by_month, plot_top_regions,plot_price_trend_by_type,plot_volume_vs_price, plot_top_regions_by_volume
 #lpading the data
 df = pd.read_csv('data/avocado.csv')
-'''
+
 #Data preview
 print("first few rows of avacado data:")
 print(df.head())
@@ -15,7 +15,7 @@ print(df.describe())
 
 print("\n column names: ")
 print(df.columns.tolist())
-'''
+
 # data cleaning
 
 #drop unnecessary index columns
@@ -66,7 +66,7 @@ print(monthly_avg)
 df = pd.read_csv('data/avocado.csv')
 df['Date'] = pd.to_datetime(df['Date'])
 
-# Call your plotting functions
+# Call plotting functions from plot.py
 plot_avg_price_by_month(df)
 plot_top_regions(df)
 plot_price_trend_by_type(df)
