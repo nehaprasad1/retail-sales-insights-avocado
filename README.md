@@ -26,11 +26,15 @@ retail-analysis/
 
 
 streamlit run analysis/dashboard.py
+
+
+
+
 🛠️ Tech Stack
-Python
+-Python
 
-Pandas
+-Pandas
 
-Matplotlib
+-Matplotlib
 
-Streamlit
+-Streamlit
